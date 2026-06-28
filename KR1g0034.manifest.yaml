@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR1g0034/v1
+canonical_location: https://kanripo.org/bkk/KR1g0034/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 五經然否論一卷
+  identifiers:
+    krp: KR1g0034
+  tags:
+    kr-categories: KR1g
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1g0034.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR1g0034_001.yaml, hash: 'sha256:7e76554b44c6eda74cadd73aee442c3507dbcacc9cc3ae0606681d2287970870'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1g0034_001.markers.yaml, hash: 'sha256:3b6d7acb43f11e68f2d55100e1333a4c8e98d36c439fc4a0f97b72a735f4e9e1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1g0034_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2565
+  label: 五經然否論
+  type: section
+  level: 1
+hash: sha256:c72a32c38548049d25205e8be84bff7d1625958d24d5fe13e03ef72d7b6034af
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
