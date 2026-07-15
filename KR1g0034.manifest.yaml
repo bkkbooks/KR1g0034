@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR1g0034/v1
 canonical_location: https://kanripo.org/bkk/KR1g0034/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 五經然否論一卷
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR1g0034_001.yaml, hash: 'sha256:b59d5ef30cb5e49c994820b0a6b2cfd03b554d419d87ab027e8101973dda0d4e'}
+  - {seq: 1, filename: KR1g0034_001.yaml, hash: 'sha256:dfd88deda6cd8ce88f6bd9208c765e597f56a41a94327285be626f7e91ba2b89'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR1g0034_001.markers.yaml, hash: 'sha256:2914dead709b63cb1b3348ea068b6da4f3ddd012c2a9cff8034b8e6a93fb3aae'}
+  - {seq: 1, role: markers, filename: assets/KR1g0034_001.markers.yaml, hash: 'sha256:f8c630196751cbf96645fe777990fd3abd594a44e4bda068f5b21ccf9288d510'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,4 +31,7 @@ table_of_contents:
   label: 五經然否論
   type: section
   level: 1
-hash: sha256:9882e3edaa1830b805dbbc61dfed2822835ae0cc0728bde427fea39fd9c15ce6
+hash: sha256:0f4c219a809a5e15e6b0d5d8bba8c8163beac7d5bdb29ee62a9c7accc8d92b39
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
